@@ -1,0 +1,19 @@
+[project]
+name = "tarefas"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Kyara Esteves de Sousa"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "django (>=4.1.0,<4.2.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "mysql-connector-python (>=9.5.0,<10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
